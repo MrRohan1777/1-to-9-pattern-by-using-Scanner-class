@@ -1,0 +1,1 @@
+# 1-to-9-pattern-by-using-Scanner-class
