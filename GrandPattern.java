@@ -9,6 +9,7 @@ public class GrandPattern {
 		Scanner sc=new Scanner(System.in);
 		while(true) {
 		System.out.println("Enter any 1 to 9 number");
+		System.out.println("Enter 0 for exite");
 		int n=sc.nextInt();
 		switch(n) {
 		case 1:
@@ -39,7 +40,7 @@ public class GrandPattern {
 		case 9:
 			GrandPattern.pattern9();
 			break;	
-		case 11:
+		case 0:
 			System.out.println("ThankYou!");
 			System.exit(0);
 			
